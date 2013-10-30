@@ -1,0 +1,7 @@
+measure_time
+============
+
+Pythonで計算時間を測ろうとすると、os.timesとかtime.clockとかtime.timeとかresource.getrusageとかいろいろある。
+ドキュメントによると計算時間（ある時点からある時点までの差分）を取得するならos.timesが他の関数を合わせたもののようだ。
+
+実際に比較して確認してみた。
