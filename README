@@ -5,3 +5,14 @@ Pythonで計算時間を測ろうとすると、os.timesとかtime.clockとかti
 ドキュメントによると計算時間（ある時点からある時点までの差分）を取得するならos.timesが他の関数を合わせたもののようだ。
 
 実際に比較して確認してみた。
+
+
+準備
+-----
+$ gcc fibonacci.c -o fibonacci
+
+
+使い方
+-----
+$ time python measure_time.py N
+
